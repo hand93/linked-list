@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 typedef struct NODE {
 		int data;
