@@ -2,13 +2,13 @@
 
 typedef struct NODE {
 		int data;
-			struct NODE* next;
+		struct NODE* next;
 }NODE;
 
 typedef struct LIST {
 		int num;
-			NODE* head;
-				NODE* tail;
+		NODE* head;
+		NODE* tail;
 }LIST;
 
 LIST* createList() {
